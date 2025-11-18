@@ -30,10 +30,7 @@ export default function Home() {
       alert("Please set your Stripe Price ID in the code first.");
       return;
     }
-    if (!email) {
-      // you can remove this if you don’t want to collect email on your site
-      return alert("Please enter your email so we can send your access details.");
-    }
+    
     buy(PRICE_ID, email);
   };
 
