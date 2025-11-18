@@ -81,7 +81,7 @@ export default function Home() {
 }
 ", testEmail)}
       >
-        Pay $22.99 (Test Checkout)
+        Pay R400 (Test Checkout)
       </button>
     </div>
   );
