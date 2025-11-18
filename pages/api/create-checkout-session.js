@@ -16,7 +16,7 @@ export default async function handler(req, res) {
     return res.status(500).json({ error: "Stripe secret key not configured" });
   }
 
-  if (!BASE_URL || BASE_URL.includes("YOUR-PROJECT-NAME")) {
+  if (!BASE_URL || BASE_URL.includes("https://ai-skills-course-3itfjuas3-lidonas-chipunzas-projects.vercel.app")) {
     return res.status(500).json({ error: "BASE_URL not configured in code" });
   }
 
