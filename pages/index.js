@@ -23,7 +23,7 @@ export default function Home() {
   const [email, setEmail] = useState("");
 
   // TODO: replace this with your real Stripe Price ID from the Dashboard
-  const PRICE_ID = "price_XXXX_REPLACE_ME";
+  const PRICE_ID = "price_1SUn5gBRrAJYCW5Rs3Nhi3VM";
 
   const handleBuyClick = () => {
     if (!PRICE_ID || PRICE_ID.includes("REPLACE_ME")) {
